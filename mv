@@ -1,0 +1,9 @@
+This is the "move" command.
+It will move a file from one location to another (1).
+Optionally, it will also rename the file (2).
+It can even by used to rename a file without moving it (3).
+
+Usage: 
+(1) mv myFileLocation/myFilename myNewFileLocation/
+(2) mv myFileLocation/myFilename myNewFileLocation/myNewFilename
+(3) mv myFilename myNewFilename
