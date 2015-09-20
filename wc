@@ -1,0 +1,11 @@
+This is the "word count" command.
+
+In reality, it can count produce a line, word, character and byte count for any given file.
+There are various options given for the output produced.
+
+Usage:
+wc <filename>
+
+using an option such as -l (line count) will output only the option chosen.
+ie. 
+wc -l <filename>
