@@ -1,0 +1,15 @@
+grep is used to search INSIDE files. 
+
+grep takes two parameters. 
+(1) What you want to search for.
+(2) What files you want to search through.
+
+Usage:
+
+grep <whatToSearchFor> <whatFilesToSearchThrough>
+
+You can use a pipe to redirect output to grep. 
+ie. 
+find ~ -name "*.txt" -print | grep README
+This command will find filenames for all text files in the Home folder but instead of printing them, all filenames will be redirected to grep. 
+grep, in turn, will only print those filenames that include "README".
